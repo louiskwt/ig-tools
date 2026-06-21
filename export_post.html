@@ -345,23 +345,23 @@
           
           <!-- Top bar -->
           <div class="flex items-center justify-between z-10">
-            <span class="bg-white/10 text-emerald-200 text-[10px] font-bold px-3 py-1 rounded-full tracking-wider">⚽ World Cup Vocab</span>
+            <span class="text-emerald-200 text-[10px] font-bold px-3 py-1 rounded-full tracking-wider">⚽ World Cup Vocab</span>
             <span class="text-yellow-400 text-xs font-bold tabular-nums">${slide.num} / 06</span>
           </div>
           
           <!-- Main content -->
           <div class="text-center z-10">
             <div class="text-yellow-400 text-[42px] font-black tracking-[-1.5px] leading-none mb-1 font-display">${slide.word}</div>
-            <div class="text-emerald-300 text-xs mb-2 font-mono tracking-widest">${slide.phonetic}</div>
-            <div class="text-white text-2xl font-bold mb-2 tracking-tight">${slide.chinese}</div>
+            <div class="text-emerald-300 text-xs mb-2 font-mono tracking-widest mt-4">${slide.phonetic}</div>
+            <div class="text-white text-2xl font-bold mb-2 tracking-tight mt-4">${slide.chinese}</div>
             
-            <div class="inline-block bg-white/10 backdrop-blur-sm rounded-full px-4 py-1 border border-white/10">
+            <div class="inline-block backdrop-blur-sm rounded-full px-4 py-1">
               <span class="text-emerald-200 text-xs font-medium">${slide.definition}</span>
             </div>
           </div>
           
           <!-- Example box -->
-          <div class="bg-black/30 backdrop-blur-md rounded-2xl p-3.5 space-y-2 border border-white/10 z-10">
+          <div class="bg-black/30 backdrop-blur-md rounded-2xl px-3.5 py-7 space-y-2 border border-white/10 z-10">
             <div class="flex gap-2 items-start">
               <span class="text-yellow-400 text-xs shrink-0 mt-0.5">📌</span>
               <p class="text-white text-xs font-medium leading-relaxed italic">"${slide.example}"</p>
@@ -370,7 +370,7 @@
           </div>
           
           <!-- Tip -->
-          <div class="bg-yellow-400/15 border border-yellow-400/20 rounded-xl px-3.5 py-2.5 z-10">
+          <div class="bg-yellow-400/15 border border-yellow-400/20 rounded-xl px-3.5 py-7 z-10">
             <p class="text-yellow-300 text-xs leading-relaxed -mt-4">💡 ${slide.tip}</p>
           </div>
         </div>
